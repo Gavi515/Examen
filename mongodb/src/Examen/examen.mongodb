@@ -1,0 +1,196 @@
+
+use('examen1_mongodb');
+db.products.insertMany([
+    {
+      _id:1,
+      nombre:"Yogurt Natural",
+      categoria: "Lacteos",
+      fecha_elaboracion: new Date(2024, 9, 2),
+      fecha_vencimiento: new Date(2024, 11, 15),
+      stock: 54
+
+      
+
+    },
+    {
+        _id:2,
+        nombre:"Salami Italiano",
+        categoria: "Embutidos",
+        fecha_elaboracion: new Date(2024, 9, 7),
+        fecha_vencimiento: new Date(2024, 10, 20),
+        stock: 32
+  
+    },
+    {
+        _id:3,
+        nombre:"Lechuga Romana",
+        categoria: "Verduras",
+        fecha_elaboracion: new Date(2024, 9, 10),
+        fecha_vencimiento: new Date(2024, 10, 28),
+        stock: 65
+  
+    },
+    {
+        _id:4,
+        nombre:"Platano Maduro",
+        categoria: "Frutas",
+        fecha_elaboracion: new Date(2024, 9, 5),
+        fecha_vencimiento: new Date(2024, 11, 10),
+        stock: 47
+  
+    },
+    {
+        _id:5,
+        nombre:"Queso Gouda",
+        categoria: "Lacteos",
+        fecha_elaboracion: new Date(2024, 9, 8),
+        fecha_vencimiento: new Date(2024, 11, 5),
+        stock: 82
+  
+    },
+    {
+        _id:6,
+        nombre:"Chorizo Español",
+        categoria: "Embutidos",
+        fecha_elaboracion: new Date(2024, 9, 15),
+        fecha_vencimiento: new Date(2024, 10, 25),
+        stock: 73
+  
+    },
+    {
+        _id:7,
+        nombre:"Tomate Cherry",
+        categoria: "Verduras",
+        fecha_elaboracion: new Date(2024, 9, 1),
+        fecha_vencimiento: new Date(2024, 10, 15),
+        stock: 22
+  
+    },
+    {
+        _id:8,
+        nombre:"Manzana Verde",
+        categoria: "Frutas",
+        fecha_elaboracion: new Date(2024, 9, 3),
+        fecha_vencimiento: new Date(2024, 11, 18),
+        stock: 90
+  
+    },
+    {
+        _id:9,
+        nombre:"Mantequilla",
+        categoria: "Lacteos",
+        fecha_elaboracion: new Date(2024, 9, 12),
+        fecha_vencimiento: new Date(2024, 10, 30),
+        stock: 45
+  
+    },
+    {
+        _id:10,
+        nombre:"Jamon de Pabo",
+        categoria: "Embutidos",
+        fecha_elaboracion: new Date(2024, 9, 9),
+        fecha_vencimiento: new Date(2024, 11, 2),
+        stock: 67
+  
+    },
+    {
+        _id:11,
+        nombre:"Zanahoria",
+        categoria: "Verduras",
+        fecha_elaboracion: new Date(2024, 9, 6),
+        fecha_vencimiento: new Date(2024, 10, 22),
+        stock: 33
+  
+    },
+    {
+        _id:12,
+        nombre:"Uvas",
+        categoria: "Frutas",
+        fecha_elaboracion: new Date(2024, 9, 14),
+        fecha_vencimiento: new Date(2024, 11, 25),
+        stock: 99
+  
+    },
+    {
+        _id:13,
+        nombre:"Leche Deslactosada",
+        categoria: "Lacteos",
+        fecha_elaboracion: new Date(2024, 9, 11),
+        fecha_vencimiento: new Date(2024, 10, 18),
+        stock: 18
+  
+    },
+    {
+        _id:14,
+        nombre:"Salchicha Viena",
+        categoria: "Embutidos",
+        fecha_elaboracion: new Date(2024, 9, 13),
+        fecha_vencimiento: new Date(2024, 11, 8),
+        stock: 39
+  
+    },
+    {
+        _id:15,
+        nombre:"Espinaca",
+        categoria: "Verduras",
+        fecha_elaboracion: new Date(2024, 9, 4),
+        fecha_vencimiento: new Date(2024, 10, 27),
+        stock: 50
+  
+    },
+    {
+        _id:16,
+        nombre:"Pera Anjou",
+        categoria: "Frutas",
+        fecha_elaboracion: new Date(2024, 9, 20),
+        fecha_vencimiento: new Date(2024, 11, 12),
+        stock: 76
+  
+    },
+    {
+        _id:17,
+        nombre:"Queso Azul",
+        categoria: "Lacteos",
+        fecha_elaboracion: new Date(2024, 9, 16),
+        fecha_vencimiento: new Date(2024, 11, 9),
+        stock: 24
+  
+    },
+    {
+        _id:18,
+        nombre:"Mortadela",
+        categoria: "Embutidos",
+        fecha_elaboracion: new Date(2024, 9, 21),
+        fecha_vencimiento: new Date(2024, 10, 29),
+        stock: 88
+  
+    },
+    {
+        _id:19,
+        nombre:"Pimiento Verde",
+        categoria: "Verduras",
+        fecha_elaboracion: new Date(2024, 9, 17),
+        fecha_vencimiento: new Date(2024, 11, 20),
+        stock: 14
+  
+    },
+    {
+        _id:20,
+        nombre:"Mango Ataulfo",
+        categoria: "Frutas",
+        fecha_elaboracion: new Date(2024, 9, 19),
+        fecha_vencimiento: new Date(2024, 11, 30),
+        stock: 64
+  
+    },
+    {
+        _id:21,
+        nombre:"Yogurt Griego",
+        categoria: "Lacteos",
+        fecha_elaboracion: new Date(2024, 9, 25),
+        fecha_vencimiento: new Date(2024, 11, 16),
+        stock: 40
+  
+    },
+])
+
